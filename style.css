@@ -117,6 +117,8 @@ body {
 }
 
 .item-card {
+    min-width: 21.45rem;
+    max-width: 37.5rem;
     overflow: hidden;
     background-color: var(--clr-white);
     border-radius: 0.7rem;
@@ -141,6 +143,7 @@ body {
     }
     p:nth-child(2) {
         font-size: 0.875rem;
+        font-size: clamp(0.875rem, 2.5dvw, 1rem);
         color: var(--clr-dark-grayish-blue);
     }
 }
@@ -153,6 +156,7 @@ body {
 
 h1 {
     font-size: 2rem;
+    font-size: clamp(2rem, 5vw, 2.5rem);
     line-height: 1.125;
     font-family: var(--ff-accent);
 }
@@ -206,6 +210,24 @@ h1 {
 .add-to-cart-btn:hover {
     cursor: pointer;
     background-color: var(--clr-very-dark-cyan);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 44.875rem) {
+    .item-card {
+        max-width: 50rem;
+        display: flex;
+        align-items: center;
+
+        .item-header {
+            width: 50%;
+        }
+
+        .item-information {
+            width: 50%;
+            padding: 2rem;
+        }
+    }
 }
 
 .attribution {
