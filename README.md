@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [](https://github.com/HeberRios/product-preview-card-component)
--   Live Site URL: [](https://heberrios.github.io/product-preview-card-component/)
+-   [Solution URL](https://github.com/HeberRios/product-preview-card-component)
+-   [Live Site URL](https://heberrios.github.io/product-preview-card-component/)
 
 ## My process
 
